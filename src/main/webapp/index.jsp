@@ -22,7 +22,7 @@ body, html {height: 100%}
     Let's Solve
   </div>
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">CUPDATE FOR DEVOPS DEMO</h1>
+    <h1 class="w3-jumbo w3-animate-top">HELLO IT IS ME</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
     <p class="w3-large w3-center">Unlock the beautiful experience..</p>
   </div>
