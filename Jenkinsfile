@@ -33,6 +33,13 @@ node{
       snDevOpsChange()
      bat "copy target\\JenkinsWar.war \"${tomcatWeb}\\JenkinsWar.war\""
    }
+   
+   post {
+      always {
+         cleanWs()
+      }
+   }
+   
      /* stage ('Start Tomcat Server') {
          sleep(time:5,unit:"SECONDS") 
          bat "cd ${tomcatBin}"
