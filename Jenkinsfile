@@ -7,7 +7,7 @@ node{
    
    stage('SCM Checkout'){
    snDevOpsStep()
-      git 'https://github.com/laurentisrael1203/UserPortal.git'
+      git 'https://github.com/laurentisrael1203/SushrutDemo.git'
      }
    stage('Compile-Package-create-war-file'){
       // Get maven home path
